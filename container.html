@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Aula 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style rel="stylesheet">
+        [class ^=col] {
+            border: 1px solid #f00;
+        }
+    </style>
+</head>
+<body>
+    <!--doc.bootstrap.com-->
+    <h2>Primeiro Container</h2>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">Banner</div>
+        </div>
+        <div class="row">
+            <div class="col-3">Texto</div>
+            <div class="col-3">Texto</div>
+            <div class="col-6">Imagem</div>
+        </div>
+        <div class="row">
+            <div class="col-8">Imagem</div>
+            <div class="col-4">Texto</div>
+        </div>
+        <div class="row">
+            <div class="col-12">Carrossel</div>
+        </div>
+        <div class="row">
+            <div class="col-3">Card 1</div>
+            <div class="col-3">Card 2</div>
+            <div class="col-3">Card 3</div>
+            <div class="col-3">Card 4</div>
+        </div>
+        <div class="row">
+            <div class="col-12">Rodapé</div>
+        </div>
+    </div>
+
+    <h2>Segundo Container</h2>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 col-xl-4">
+                <span>Coluna 1</span>
+            </div>
+            <div class="col-sm-6 col-md-3 col-xl-1">
+                <span>Coluna 2</span>
+            </div>
+            <div class="col-sm-6 col-md-3 col-xl-5">
+                <span>Coluna 3</span>
+            </div>
+            <div class="col-sm-6 col-md-3 col-xl-2">
+                <span>Coluna 4</span>
+            </div>
+        </div>
+    </div>
+
+    <h3>Classe Auto</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">Uma coluna</div>
+            <div class="col-md-auto">Coluna com largura determinada pelo conteúdo</div>
+            <div class="col-md-2">Uma coluna</div>
+        </div>
+    </div>
+
+    <h2>Cards</h2>
+    <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+            <div class="col">Card 1</div>
+            <div class="col">Card 2</div>
+            <div class="col">Card 3</div>
+            <div class="col">Card 4</div>
+            <div class="col">Card 5</div>
+            <div class="col">Card 6</div>
+            <div class="col">Card 7</div>
+            <div class="col">Card 8</div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
